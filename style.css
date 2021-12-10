@@ -1,0 +1,252 @@
+* {
+	margin-right: 0;
+	padding: 0;
+	margin-left: 0;
+}
+
+.header-div {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: space-between;
+}
+
+.header-links a{
+	text-decoration: none;
+	color: #000;
+}
+.header-links li {
+	display: inline-block;
+	margin-top: 20px;
+	font-weight: 400;
+	font-family: sans-serif;
+	margin-left: 20px;
+}
+
+.header-languages {
+	float: right;
+	margin-right: 20px;
+	margin-top: 30px;
+
+}
+
+.header-languages li {
+	display: inline-block;
+	margin-left: 10px;
+	font-family: sans-serif;
+}
+
+.header-languages a {
+	text-decoration: none;
+	color: #000;
+}
+
+.bts-logo {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+
+/*//////////////////////////////////  SECTION - 1 \\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.section-1 {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+.section-1 h1, .change-world h1 {
+	font-weight: 900;
+    font-size: 48px;
+    line-height: 1.8;
+    font-family: Suisseintl Bold,sans-serif;
+    margin-left: 20px;
+}
+
+.section-1 p, .products-section p {
+	font-weight: 400;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-left: 20px;
+}
+
+.section-1 img {
+	margin-right: 20px;
+	margin-top: 50px;
+}
+
+.section-1 a {
+	width: 100%;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	padding-bottom: 10px;
+}
+
+.cv {
+	text-align: center;
+	margin-left: 600px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid black;
+	font-size: 20px;
+	font-weight: 700;
+	padding-bottom: 10px;
+	width: 25%;
+}
+
+
+/*///////////////////////////// PRODUCTS SECTION \\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.products-section {
+	background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI3NCIgaGVpZ2h0PSIxMjU1IiB2aWV3Qm94PSIwIDAgMTI3NCAxMjU1IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIG9wYWNpdHk9IjAuMDUiPjxjaXJjbGUgY3g9IjQyNi40OTIiIGN5PSI0MjYuNDkyIiByPSI0MDUuNDkyIiBzdHJva2U9IiMwQUQwQzgiIHN0cm9rZS13aWR0aD0iNDIiLz48cGF0aCBkPSJNODMyLjAwOSA4MjcuOTc4QzgzMi4wMDkgMTA1MS45MiA2NTAuNDY0IDEyMzMuNDcgNDI2LjUxNyAxMjMzLjQ3QzIwMi41NyAxMjMzLjQ3IDIxLjAyNTYgMTA1MS45MiAyMS4wMjU2IDgyNy45NzhDMjEuMDI1NiA2MDQuMDMxIDIwMi41NyA0MjIuNDg2IDQyNi41MTcgNDIyLjQ4NkM2NTAuNDY0IDQyMi40ODYgODMyLjAwOSA2MDQuMDMxIDgzMi4wMDkgODI3Ljk3OFoiIHN0cm9rZT0iIzBBRDBDOCIgc3Ryb2tlLXdpZHRoPSI0MiIvPjxjaXJjbGUgY3g9Ijg0Ni42NzMiIGN5PSI0MjYuNDkyIiByPSI0MDUuNDkyIiBzdHJva2U9IiMwQUQwQzgiIHN0cm9rZS13aWR0aD0iNDIiLz48Y2lyY2xlIGN4PSI4NDYuNjczIiBjeT0iODI3Ljk3OCIgcj0iNDA1LjQ5MiIgc3Ryb2tlPSIjMEFEMEM4IiBzdHJva2Utd2lkdGg9IjQyIi8+PC9nPjwvc3ZnPg==');
+	margin-bottom: 50px;
+}
+
+.container-products {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.products-section h1 {
+	font-weight: 900;
+    font-size: 48px;
+    line-height: 1.5;
+    font-family: Suisseintl Bold,sans-serif;
+    margin-left: 20px;
+}
+
+.products-section img {
+	width: 220px;
+	display: block;
+	margin: auto;
+	margin-bottom: 70px;
+}
+
+.container-products div {
+	border: 1px solid transparent;
+	box-shadow: 3px 2px 5px black;
+	padding: 10px;
+	margin: 20px;
+}
+
+.dosmart-para {
+	margin-top: 110px;
+}
+
+/*//////////////////////////// TEAMS SECTION \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+.teams-section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	background-color: #000;
+	color: white;
+
+}
+
+.teams-section h1  {
+	font-weight: 900;
+    font-size: 48px;
+    line-height: 1.5;
+    font-family: Suisseintl Bold,sans-serif;
+    margin-left: 150px;
+}
+
+.teams-section p {
+	font-weight: 400;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-left: 150px;
+}
+
+
+/*//////////////////////// CHANGE WORLD SECTION \\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+.change-world p {
+	font-weight: 400;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+
+/*//////////////////////// VACANCIES SECTION \\\\\\\\\\\\\\\\\\\\\*/
+
+.vacancies-section h1{
+	font-weight: 900;
+    font-size: 48px;
+    line-height: 1.8;
+    font-family: Suisseintl Bold,sans-serif;
+    margin-left: 20px;
+}
+
+
+
+.vacancies-section a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	border: 2px solid black;
+	padding: 15px 700px 15px 40px;
+	margin-left: 20px;
+	font-size: 20px;
+	margin-right: 100px;
+
+}
+
+.vacancies-section a:hover {
+	display: block;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	border: 2px solid black;
+	padding: 15px 700px 15px 40px;
+	margin-left: 20px;
+	font-size: 20px;
+	margin-right: 100px;
+
+}
+
+.vacancies-section {
+	margin-bottom: 50px;
+}
+
+
+/*//////////////////////// MAP-SECTION \\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+.map-section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: #000;
+	margin: 0;
+	padding: 30px;
+	border-bottom: 1px solid white;
+}
+
+.map-section h1{
+	font-weight: 900;
+    font-size: 48px;
+    line-height: 1.8;
+    font-family: Suisseintl Bold,sans-serif;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.map-section p {
+	font-weight: 400;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-left: 20px;
+   
+    font-weight: 400;
+    color: #fff;
+
+}
+
+.map-section a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.map-section img {
+	padding-top: 40px;
+	padding-right: 40px;
+}
